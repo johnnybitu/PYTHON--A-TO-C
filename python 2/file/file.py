@@ -1,0 +1,5 @@
+f = open("student.txt", mode = 'w')
+f.write("hellow\n")
+f.write("how are you\n")
+f.close()
+print(f.closed)
